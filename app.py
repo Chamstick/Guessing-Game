@@ -19,9 +19,12 @@ while numberOfGuesses < 3:
     guess = int(input("Please enter your best guess: "))
     if guess > numberAnswer:
         print("Your guess is too high, try again!")
+        numberOfGuesses += 1
     elif guess < numberAnswer:
         print("Your guess is too low, try again!")
+        numberOfGuesses += 1
     elif guess == numberAnswer:
+        numberOfGuesses += 1
         break
 
 if guess == numberAnswer:
