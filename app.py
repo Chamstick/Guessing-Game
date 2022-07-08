@@ -1,4 +1,4 @@
-# Python guessing game project.
+# Number Guesser by Chamstick.
 
 # Import here.
 import time
